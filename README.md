@@ -80,7 +80,9 @@ Then double click on PHP manager. Click on "Disable or enable an extension" Enab
 </p>
 <p>
 Go back into c:\inetpub\wwwroot\osTicket\include and rename "ost-sampleconfig.php" to "ost-config.php"
+  
 Assign permissions to ost-config.php by right cicking the file > select Properties >Security >Advanced >Disable inheritance >Remove all inherited permissions from this object
+  
 Now you want to add new permissions for Everyone allowing full control
 </p>
 <img src=https://i.imgur.com/zsG65V3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -88,9 +90,11 @@ Now you want to add new permissions for Everyone allowing full control
 <p>
 </p>
 <p>
-Afterwards continue setting up osTicket in the browser (click continue) then you will name the Helpdesk to your liking. Select a default email that will receive emails from customers who submit tickets. 
+Go back to your browser that has osTicket and click continue
+                                                                                              
+This will redirect you to a screen where you will name your Helpdesk and add an email that will receive emails from customers who submit tickets. 
 </p>
-<img src="https://i.imgur.com/RmVk3q5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YdFg6NP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 <p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
