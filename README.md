@@ -51,8 +51,10 @@ Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 
 <p>
 </p>
 <p>
-3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive link for you to manual install.
+  
+3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive link. Below I have attatched an image with the 2 files that you need to download circled. 
 <img src="https://i.imgur.com/F661q8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
   
 Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 </P>
