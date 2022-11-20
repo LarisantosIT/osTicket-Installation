@@ -97,7 +97,15 @@ This will redirect you to a screen where you will name your Helpdesk and add an 
 <img src="https://i.imgur.com/YdFg6NP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
-<p>Continue Setting up osticket in the browser MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
+Lastly you will need install HeidiSQL in order to fill out the Database portion of the osTicket setup, the HeidiSQL file can be found in the installation files link
+Open HeidiSQL and select "New" for create a new connection
+Username is root and the Password is password1 
+<img src="https://i.imgur.com/CBnZecV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
+                                                                                                 
+                                                                                                 
+                                                                                              
+                                                                                                 
+MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
 Congratulations, hopefully it is installed with no errors!
 Clean up
 Delete: C:\inetpub\wwwroot\osTicket\setup
