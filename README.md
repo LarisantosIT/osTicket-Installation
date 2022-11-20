@@ -66,24 +66,24 @@ Next download osTicket. Then extract and copy the "upload" folder into c:\inetpu
 <p>
 Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server. Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
 </p>
-<img src="https://i.imgur.com/TLnuP6Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7fYjD7N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into IIS manager and enable some extensions. To do this you have to go to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and obsereve the changes "Intl Extension" should now be enabled. 
+Go back into IIS manager to enable some extensions by going to Sites->Default->osTicket
+Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and you should notice that "Intl Extension" should now be enabled. 
 </p>
-<img src="https://i.imgur.com/APZgUTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/gmOK5S0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
 <p>
-Go back into c:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php rename the file to c:\inetpub\wwwroot\osTicket\include\ost-config.php
+Go back into c:\inetpub\wwwroot\osTicket\include and rename "ost-sampleconfig.php" to "ost-config.php"
 Assign permissions to ost-config.php Disable inheritance->Removeall
 New Permissions->Everyone->all
 </p>
-<img src="https://i.imgur.com/1nYaYGe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=https://i.imgur.com/zsG65V3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
