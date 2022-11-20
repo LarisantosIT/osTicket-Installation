@@ -101,7 +101,7 @@ Lastly you will need install HeidiSQL in order to fill out the Database portion 
 Open HeidiSQL and select "New" for create a new connection
 Username is root and the Password is password1 
 <img src="https://i.imgur.com/CBnZecV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
-                                                                                                 
+<img src="https://i.imgur.com/mRV7b39.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                  
                                                                                                  
                                                                                               
                                                                                                  
