@@ -26,23 +26,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-To begin we will use Microsoft Azure to create a virtual machine. A virtual machine or VM for short is used in order to protect our pc just in case something malfunctions. Create a resource group and name it "osTicket". Afterwards create a VM with atleast 2 CPUs.
+To begin we will connect to our virtual machine using remote desktop and its pubilc IPv4. Your VMs IPv4 can be found in your Azure portal.
   
- <img src="https://i.imgur.com/OPaIGoN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/roNfFxZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
-</p>
-<p>Next you will want to ensure connectiving to your new VM. To do so open up Remote Desktop and input the public IP address of your VM which can be found in Azure.
-</p>
-<img src="https://i.imgur.com/uLVKzxS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
 <p>
-</p>
-<p>
-Once connected to your VM you will have to enable Internet Information Services. Go into control panel and select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services also refered to as IIS.
+Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services also refered to as IIS.
 </p>  
 <img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
