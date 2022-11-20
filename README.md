@@ -33,9 +33,9 @@ To begin we will connect to our virtual machine using remote desktop and its pub
 <br />
 <p>
 <p>
-Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Off to the left select "Turn windows features on or off". A list will appear then you will enable Internet Information Services also refered to as IIS.
+Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Under the navigation tree located to the left select "Turn windows features on or off". Once the list populates you will then enable Internet Information Services also refered to as IIS.
 </p>  
-<img src="https://i.imgur.com/qtEnuWu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/G7RmZp5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 </p>
