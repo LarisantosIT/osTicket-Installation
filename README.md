@@ -33,20 +33,19 @@ To begin we will connect to our virtual machine using remote desktop and its pub
 <br />
 <p>
 <p>
-Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Under the navigation tree located to the left select "Turn windows features on or off". Once the list populates you will then enable Internet Information Services also refered to as IIS.
+Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Under the navigation tree located to the left select "Turn windows features on or off". Once the list populates you will then enable Internet Information Services and selecting okay.
 </p>  
-<img src="https://imgur.com/a/G7RmZp5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xoexjr5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 </p>
 <p>
-Now that IIS is enabled you need to install Web Platform Installer. I have provided a link here: https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
-  That link will provide you with all of the material you need to download to get osTicket up and running. Simply click the link and install the Web Platform Installer
+Next you need to install Web Platform Installer, which can be accessed through the following link https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. That link will have have all the applications and extensions you need to get osTicket installed and working porperly. 
 </p>
 <img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Once you have installed Web Installer Platform open it. From inside the application you are going to install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
+Now open Web Installer Platform and install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
 </p>
 <img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
