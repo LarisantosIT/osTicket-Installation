@@ -42,12 +42,12 @@ Once you have logged into your VM you need have to enable IIS, which is an abrev
 <p>
 Next you need to install Web Platform Installer, which can be accessed through the following link https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. That link will have have all the applications and extensions you need to get osTicket installed and working porperly. 
 </p>
-<img src="https://i.imgur.com/AxHCfQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+<img src="https://i.imgur.com/Y3wHai2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now open Web Installer Platform and install MySQL 5.5 Afterwards install x86 version of PHP up until 7.3. There are some failed files such as C++ redistributable package as well as PHP 7.3.8 and PHP Manager for IIS those files can be found with the install link.
-</p>
-<img src="https://i.imgur.com/JJ8bZeJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 7.0.33 (x86), PHP 7.1.29 (x86), PHP 7.2.26 (x86) and PHP 7.3.25 (x86). Once you select install you will be prompted by MySQL to enter a passowrd as shown in the picture below. The password will be "passowrd1". Some fails will fail to install such files can be foundin the google drive link for you to manual extract and install.
+  
+<img src="https://i.imgur.com/TmLzg7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 <p>
