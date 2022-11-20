@@ -80,8 +80,8 @@ Then double click on PHP manager. Click on "Disable or enable an extension" Enab
 </p>
 <p>
 Go back into c:\inetpub\wwwroot\osTicket\include and rename "ost-sampleconfig.php" to "ost-config.php"
-Assign permissions to ost-config.php Disable inheritance->Removeall
-New Permissions->Everyone->all
+Assign permissions to ost-config.php by right cicking the file > select Properties >Security >Advanced >Disable inheritance >Remove all inherited permissions from this object
+Now you want to add new permissions for Everyone allowing full control
 </p>
 <img src=https://i.imgur.com/zsG65V3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
