@@ -45,12 +45,15 @@ Next you need to install Web Platform Installer, which can be accessed through t
 <img src="https://i.imgur.com/Y3wHai2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 7.0.33 (x86), PHP 7.1.29 (x86), PHP 7.2.26 (x86) and PHP 7.3.25 (x86). Once you select install you will be prompted by MySQL to enter a passowrd as shown in the picture below. The password will be "passowrd1". Some fails will fail to install such files can be foundin the google drive link for you to manual extract and install.
+Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 7.0.33 (x86), PHP 7.1.29 (x86), PHP 7.2.26 (x86) and PHP 7.3.25 (x86). Once you select install you will be prompted by MySQL to enter a passowrd, the password will be "passowrd1".
   
 <img src="https://i.imgur.com/TmLzg7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 <p>
+3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive link for you to manual install.
+<img src="https://i.imgur.com/F661q8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  
 Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 </P>
 <img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
