@@ -52,21 +52,21 @@ Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 
 </p>
 <p>
   
-3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive link. Below I have attatched an image with the 2 files that you need to download circled. 
+You will notice that 3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive installations files link. Below I have attatched an image with the 2 files that you need to download circled. 
 <img src="https://i.imgur.com/F661q8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
   
 Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
 </P>
-<img src="https://i.imgur.com/TUGiSKi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qvjxhML.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
 </p>
 <p>
-Open IIS Manager and restart the server. Once inside IIS manager go to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server. Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
 </p>
-<img src="https://i.imgur.com/4AkTkV0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TLnuP6Y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
 </p>
