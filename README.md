@@ -103,17 +103,24 @@ This will redirect you to a screen where you will name your Helpdesk and add an 
 <img src="https://i.imgur.com/YdFg6NP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <p>
-Lastly you will need install HeidiSQL in order to fill out the Database portion of the osTicket setup, the HeidiSQL file can be found in the installation files link
+Lastly you will need install HeidiSQL in order to fill out the Database portion of the osTicket setup
+         
+The HeidiSQL file can be found in the installation files link
 
 <img src="https://i.imgur.com/CBnZecV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                 
 
 Open HeidiSQL and select "New" for create a new connection
+
 Username is root and the Password is password1 
+                              
 Create a new database called "osTicket"
-Now in the osTicket installer fill out the following as such 
+                                       
+Now in the osTicket installer fill out the following as such
+                                       
 MySQL Database: osTicket                                       
 MySQL Username: root
 MySQL Password: Password1
+                                       
 Click "Install Now"                                      
 <img src="https://i.imgur.com/mRV7b39.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                  
 
