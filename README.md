@@ -52,11 +52,15 @@ Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 
 </p>
 <p>
   
-You will notice that 3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager. These files can found in the google drive installations files link. Below I have attatched an image with the 2 files that you need to download circled. 
+You will notice that 3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager, these files can found in the google drive installations files link.
+
+Below I have attatched an image with the 2 files that you need to download circled. 
 <img src="https://i.imgur.com/F661q8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
   
   
-Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot. Afterwards rename the folder to osTicket
+Next download osTicket. Then extract and copy the "upload" folder into c:\inetpub\wwwroot
+  
+Afterwards rename the folder to osTicket
 </P>
 <img src="https://i.imgur.com/qvjxhML.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -64,7 +68,9 @@ Next download osTicket. Then extract and copy the "upload" folder into c:\inetpu
 <p>
 </p>
 <p>
-Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server. Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80" from there your default browser should open osTicket webserver.
+Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server. 
+Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80" 
+From there your default browser should open osTicket webserver.
 </p>
 <img src="https://i.imgur.com/7fYjD7N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -111,9 +117,6 @@ Click "Install Now"
 <img src="https://i.imgur.com/mRV7b39.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                  
 You have now successfully installed osTicket!                                                                                                
                                                                                               
-                                                                                                 
-MySQL Database: osTicket MySQL Username: root MySQL Password: Password1 Click “Install Now!”
-Congratulations, hopefully it is installed with no errors!
 Clean up
 Delete: C:\inetpub\wwwroot\osTicket\setup
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
