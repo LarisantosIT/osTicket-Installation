@@ -64,7 +64,9 @@ Once you select install you will be prompted by MySQL to enter a passowrd, the p
 </p>
 <p>
   
-You will notice that 3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager, these files can found in the google drive installations files link.
+You will notice that 3 files will fail to install but you only need to install 2 out of the 3 which would be the C++ and PHP Manager
+  
+These files can found in the google drive installations files link.
 
 Below I have attatched an image with the 2 files that you need to download circled. 
 <img src="https://i.imgur.com/F661q8T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -92,7 +94,10 @@ From there your default browser should open osTicket webserver
 </p>
 <p>
 Go back into IIS manager to enable some extensions by going to Sites->Default->osTicket
-Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" then refresh the osTicket webserver and you should notice that "Intl Extension" should now be enabled. 
+  
+Then double click on PHP manager. Click on "Disable or enable an extension" Enable "php_intl.dll" & "php_opcache.dll" 
+  
+Refresh the osTicket webserver and you should notice that "Intl Extension" should now be enabled
 </p>
 <img src="https://i.imgur.com/gmOK5S0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
