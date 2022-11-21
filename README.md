@@ -129,5 +129,7 @@ You have now successfully installed osTicket!
 In order to keep osTicket runnning smoothly you have to delte some files and set permissions                                                                           
                                                                                                  
 Delete: C:\inetpub\wwwroot\osTicket\setup
+                                                                                                 
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<img src="https://i.imgur.com/DuGnMMJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                  
 
