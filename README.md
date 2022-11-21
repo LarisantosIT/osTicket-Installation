@@ -125,8 +125,9 @@ Click "Install Now"
 <img src="https://i.imgur.com/mRV7b39.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>                                                                                                  
 
 You have now successfully installed osTicket!                                                                                                
-                                                                                              
-Clean up
+
+In order to keep osTicket runnning smoothly you have to delte some files and set permissions                                                                           
+                                                                                                 
 Delete: C:\inetpub\wwwroot\osTicket\setup
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-Login to the osTicket Admin Panel (http://localhost/osTicket/scp/login.php)
+
