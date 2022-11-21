@@ -26,26 +26,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 </p>
 <p>
-To begin we will connect to our virtual machine using remote desktop and its pubilc IPv4. Your VMs IPv4 can be found in your Azure portal.
+To begin we will connect to our virtual machine using remote desktop and its pubilc IPv4
+  
+Your VMs IPv4 can be found in your Azure portal
   
  <img src="https://i.imgur.com/roNfFxZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 <p>
 <p>
-Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services. To do so go into control panel and select uninstall a program. Under the navigation tree located to the left select "Turn windows features on or off". Once the list populates you will then enable Internet Information Services and selecting okay.
+Once you have logged into your VM you need have to enable IIS, which is an abrevation for Internet Information Services
+
+To do so go into control panel and select uninstall a program
+  
+Under the navigation tree located to the left select "Turn windows features on or off"
+  
+Once the list populates you will then enable Internet Information Services and selecting okay
 </p>  
 <img src="https://i.imgur.com/xoexjr5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 </p>
 <p>
-Next you need to install Web Platform Installer, which can be accessed through the following link https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6. That link will have have all the applications and extensions you need to get osTicket installed and working porperly. 
+Next you need to install Web Platform Installer, which can be accessed through the following link https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+  
+That link will have have all the applications and extensions you need to get osTicket installed and working porperly. 
 </p>
 <img src="https://i.imgur.com/Y3wHai2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 </p>
 <p>
-Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 7.0.33 (x86), PHP 7.1.29 (x86), PHP 7.2.26 (x86) and PHP 7.3.25 (x86). Once you select install you will be prompted by MySQL to enter a passowrd, the password will be "passowrd1".
+Now open Web Installer Platform to add the following MySQL 5.5, PHP 5.6.31, PHP 7.0.33 (x86), PHP 7.1.29 (x86), PHP 7.2.26 (x86) and PHP 7.3.25 (x86)
+  
+Once you select install you will be prompted by MySQL to enter a passowrd, the password will be "passowrd1".
   
 <img src="https://i.imgur.com/TmLzg7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <p>
@@ -68,9 +80,11 @@ Afterwards rename the folder to osTicket
 <p>
 </p>
 <p>
-Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server. 
-Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80" 
-From there your default browser should open osTicket webserver.
+Open IIS Manager and under "Manage Server" to the right you want to restart, stop and start the server
+ 
+Then on the left hand side of IIS naviagte to Sites->Default->osTicket on the right, click "Browse*.80"
+  
+From there your default browser should open osTicket webserver
 </p>
 <img src="https://i.imgur.com/7fYjD7N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -126,7 +140,7 @@ Click "Install Now"
 
 You have now successfully installed osTicket!                                                                                                
 
-In order to keep osTicket runnning smoothly you have to delte some files and set permissions                                                                           
+In order to keep osTicket runnning smoothly you have to delete some files and set permissions                                                                           
                                                                                                  
 Delete: C:\inetpub\wwwroot\osTicket\setup
                                                                                                  
